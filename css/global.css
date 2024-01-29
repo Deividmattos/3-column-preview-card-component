@@ -32,6 +32,10 @@
       color: white;
 }
 .sedans_btn{
+      padding: 20px;
+
+}
+.sedans button{
       border: 15px;
       color:hsl(179, 100%, 13%);
       padding: 20px;
