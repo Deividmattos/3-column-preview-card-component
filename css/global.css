@@ -3,94 +3,81 @@
       padding: 0;
       box-sizing: border-box;
 }
-.container{
-      background-color: aquamarine;
-      margin:10% auto;
-      width: 50%;
-      height: auto;
-      
-}
-.container__cards{
+ body{
       display: flex;
-      align-items: center;
-      justify-content:center;
-      height: auto;
-      padding: 40px;   
-}
-.sedans_card{
-       background-color: hsl(31, 77%, 52%);
+      justify-content: center;
+ }    
+.container{
+      margin-top:10rem;
+      display: flex;
+      flex-direction: row;
+
+ 
 }
 .sedans{
-      padding: 20px;
+      background-color:hsl(31, 77%, 52%);
+      height: 100%;
+      width: 100%;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      
 }
-.sedans h3{
-      color: white;
-      text-transform: uppercase;
-      padding: 10px;
+.sedans_btn button{
+   margin:1.25rem;
+   border-radius: 15px;
+   padding: 7px;
+   width: 100px;
+   border: none;
 }
-.sedans p{
-      color: white;
-}
-.sedans_btn{
-      padding: 20px;
-
-}
-.sedans button{
-      border: 15px;
-      color:hsl(179, 100%, 13%);
-      padding: 20px;
-      border-radius: 40px;
+.sedans_btn button > p{
+    color: hsl(31, 77%, 52%);
 }
 
-
-.suvs_card{
-      background-color:hsl(184, 100%, 22%) ;
-}
 .suvs{
-      padding: 20px;
+      background-color:hsl(184, 100%, 22%);
+      height: 100%; 
+      width: 100%;     
 }
-.suvs h3{
-      color: white;
-      text-transform: uppercase;
-      padding: 10px;
+.suvs_bnt button{
+   margin:1.25rem;
+   border-radius: 15px;
+   padding: 7px;
+   width: 100px;
+   border: none;
 }
-.suvs p{
-      color: white;
-}
-.suvs_bnt{
-      border: 15px;
-      color:hsl(179, 100%, 13%);
-      padding: 20px;
-      border-radius: 40px;
-}
-
-
-.luxury_card{
-      background-color: hsl(179, 100%, 13%);
+.suvs_btn button > p{
+    color:hsl(184, 100%, 22%);
 }
 .luxury{
-      padding: 20px;
+      background-color:hsl(179, 100%, 13%);
+      height:100%; 
+      width: 100%;  
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;     
 }
-.luxury h3{
-      color: white;
-      text-transform: uppercase;
-      padding: 10px;
+.luxury_btn button{
+      margin:1.25rem;
+      border-radius: 15px;
+      padding: 7px;
+      width: 100px;
+      border: none;  
 }
-.luxury p{
-      color: white;
-}
-.luxury_bnt{
-      border: 15px;
+.luxury_btn button > p{
       color:hsl(179, 100%, 13%);
-      padding: 20px;
-      border-radius: 40px;
+}
+.sedans img,.suvs img,.luxury img{
+      margin: 1.25rem;
+}
+.sedans h3,.suvs h3,.luxury h3{
+      margin: 1.25rem;
+      color: white;
+}
+.sedans_text p,.suvs_text p,.luxury_text p{
+      margin: 1.25rem;
+      color: white;
+      line-height: 2rem;
+      width:12rem;
 }
 
-.attribution{
-      padding-top: 100px;
-      font-size: 11px;
-      text-align: center;
-}
-.attribution a {
-       color: hsl(228, 45%, 44%);
-}       
+
+
